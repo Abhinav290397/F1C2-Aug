@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin:0px;
+    padding:px;
+    font-family: 'Inter', sans-serif;;
+}
+nav{
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    position: sticky;/*dont know why sticky is not working*/
+    top:0px;
+    z-index: 1;
+}
+nav>a,nav>div>a{
+    color:white;
+    text-decoration:none;
+    margin-left: 10px; /*for both margin right and margin left we can write margin-inline*/
+    margin-right:10px;
+}
+#book{
+    display:flex;
+    width:100vw;
+    justify-content: center;
+}
+#books-div{
+    border-radius:10px;
+    box-shadow: 0 0 10px black;
+    margin-top:50px;
+    background-color: white;
+}
+#heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+table,td,th{
+    border: 1px solid rgb(188, 177, 177);
+    border-collapse: collapse;
+}
+td,th{
+    padding:10px;
+}
+td>a{ /*to give spacing bw book title and lower block*/
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#car{
+    display:flex;
+    width:100vw;
+    justify-content: center;
+}
+#register-div{
+    border-radius:5px;
+    box-shadow: 0 0 10px black;
+    margin-top:50px;
+    background-color: white;
+    width: 612px;px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+form{
+    display:flex;
+    flex-direction:column
+}
+#register-div>h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+#car{
+    display:flex;
+    width:100vw;
+    justify-content: center;
+}
+label{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+input{
+    border:1px solid #ececec;
+}
+button{
+    background-color: black;
+    color:white;
+    border:none;
+    font-size:20px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest-2</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <nav>
+        <a href="">Library System</a>
+        <div>
+          <a href="book">Books</a>
+          <a href="car">Register</a>
+          <a href="#">About us</a>
+          <a href="#">Log out</a>
+        </div>
+    </nav>
+
+    <section id = "book">
+        <div id = "books-div">
+        <h3 id = "heading">Books</h3>
+        <table >
+            <tr>
+                <th>Book Id</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Genere</th>
+                <th>Availability</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>
+                    <a href="#">Book Title-1</a>
+                    <table>
+                        <tr><td>Publication Date:2001</td></tr>
+                        <tr><td>Page Count:285</td></tr>
+                        <tr><td>ISBN : 145852658</td></tr>
+                    </table>
+                </td>
+                <td>Author1</td>
+                <td>1</td>
+                <td>available</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>
+                    <a href="#">Book Title-2</a>
+                    <table>
+                        <tr><td>Publication Date:2003</td></tr>
+                        <tr><td>Page Count:225</td></tr>
+                        <tr><td>ISBN : 546546464</td></tr>
+                    </table>
+                </td>
+                <td>Author2</td>
+                <td>2</td>
+                <td> not - available</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>
+                    <a href="#">Book Title-5</a>
+                    <table>
+                        <tr><td>Publication Date:2009</td></tr>
+                        <tr><td>Page Count:585</td></tr>
+                        <tr><td>ISBN : 544444</td></tr>
+                    </table>
+                </td>
+                <td>Author3</td>
+                <td>8</td>
+                <td>available</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+
+    <section id = "car">
+        <div id = "register-div">
+            <h3>Register</h3>
+            <form>
+                <label for="fnmae">First Name</label>
+                <input type="text" id="fname"required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname"required>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob"required>
+
+                <label for="age">Age</label>
+                <input type="number" id="age"required>
+
+                <label for="eml">e-mail</label>
+                <input type="email" id="eml"required>
+
+                <label for="pass">Password</label>
+                <input type="password" id="pass"required>
+
+                <label for="pass">Confirm Password</label>
+                <input type="password" id="pass"required>
+
+                <Button type = :submit>Register</Button>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
